@@ -7,10 +7,12 @@
 from addition import addTwoNumbers
 from multiply import multiplyTwoNumbers
 
-x = input(":")
-y = input(":")
 
-if(addTwoNumbers(x,y)==multiplyTwoNumbers(x,y)):
+iFirstNum = int(input("Please enter a whole number: "))
+iSecondNum = int(input("Please enter another whole number: "))
+
+if(addTwoNumbers(iFirstNum,iSecondNum)==multiplyTwoNumbers(iFirstNum,iSecondNum)):
+
     print("The sum and product are the same")
 else:
     print("The sum and product are different")
